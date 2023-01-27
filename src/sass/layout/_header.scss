@@ -1,3 +1,5 @@
+@use '../abstracts/' as *;
+
 .header {
 	background-image: url(../../../src/img/HeaderMedium.jpg);
 	height: 80vh;

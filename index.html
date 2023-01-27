@@ -14,32 +14,57 @@
     <link rel="stylesheet" href="./dist/css/main.min.css" />
 </head>
 
-<body>
+<body style="background:#EAE1C6">
     <nav class="nav">
-        <button class="nav__burgerBtn">
-            <div class="nav__burgerBox">
-                <div class="nav__burgerBars"></div>
+        <div class="nav__mobile">
+            <button class="nav__burgerBtn">
+                <div class="nav__burgerBox">
+                    <div class="nav__burgerBars"></div>
+                </div>
+            </button>
+            <div class="nav__list-box">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#aboutus" class="nav__link mobile-nav-animation">About Us</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#catalog" class="nav__link mobile-nav-animation">Catalog</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#reviwes" class="nav__link mobile-nav-animation">Reviews</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#news" class="nav__link mobile-nav-animation">News</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link mobile-nav-animation">Contact</a>
+                    </li>
+                </ul>
+                <button class="nav__close">
+                    <i class="fas fa-times"></i>
+                </button>
             </div>
-        </button>
-        <div class="nav__list-box">
-            <ul class="nav__list">
-                <li class="nav__item"><a href="#aboutus" class="nav__link mobile-nav-animation">About Us</a></li>
-                <li class="nav__item"><a href="#catalog" class="nav__link mobile-nav-animation">Catalog</a></li>
-                <li class="nav__item"><a href="#reviwes" class="nav__link mobile-nav-animation">Reviews</a></li>
-                <li class="nav__item"><a href="#news" class="nav__link mobile-nav-animation">News</a></li>
-                <li class="nav__item"><a href="#contact" class="nav__link mobile-nav-animation">Contact</a></li>
-            </ul>
-            <button class="nav__close"><i class="fas fa-times"></i></button>
+            <div class="nav__logo-box">
+                <a href="#"><img src="./src/img/logo.png" alt="Tsunami logo" class="nav__logo" /></a>
+            </div>
         </div>
-        <div class="nav__logo-box">
-            <a href="#"><img src="./src/img/logo.png" alt="Tsunami logo" class="nav__logo"></a>
+        <div class="nav__desktop">
+            <a href="#" class="nav__desktop-logo-box">
+                <img src="./src/img/logo.png" alt="" class="nav__logo-img"> <p class="nav__company-name">Tsunami</p>
+            </a>
+            <ul class="nav__desktop-list">
+                <li class="nav__desktop-item desktop-nav-animation"><a href="#" class="nav__desktop-link ">About Us</a></li>
+                <li class="nav__desktop-item desktop-nav-animation"><a href="#" class="nav__desktop-link">Catalog</a></li>
+                <li class="nav__desktop-item desktop-nav-animation"><a href="#" class="nav__desktop-link">Reviews</a></li>
+                <li class="nav__desktop-item desktop-nav-animation"><a href="#" class="nav__desktop-link">News</a></li>
+                <li class="nav__desktop-item desktop-nav-animation"><a href="#" class="nav__desktop-link">Contact</a></li>
+            </ul>
         </div>
     </nav>
 
-    <header class="header">
+    <header class="header"></header>
 
-    </header>
-
+   
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
         crossorigin="anonymous"></script>

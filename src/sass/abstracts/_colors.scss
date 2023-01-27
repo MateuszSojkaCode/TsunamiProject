@@ -6,8 +6,12 @@ $light-main-1: #36613d;
 $light-main-2: #68886e;
 
 $main-cta: #f38a0c;
-$dark-cta-1: #db7c0b;
+$dark-cta-1: #c26e0a;
+$dark-cta-2: #925307;
+$dark-cta-3: #613705;
 $light-cta-1: #f49624;
+
+$body-color: #EAE1C6;
 
 $white-color: #fff;
 $light-gray-e: #eee;
@@ -25,3 +29,5 @@ $dark-gray-5: #555;
 $dark-gray-6: #666;
 
 $main-green-gradient: linear-gradient(180deg, $main-color, $dark-main-3);
+// $transparent-green-gradient: linear-gradient(90deg, $dark-main-1, transparent);
+$main-orange-gradient: linear-gradient(180deg, $main-cta, $dark-cta-3);
