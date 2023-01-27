@@ -1,1 +1,63 @@
+@use "../abstracts/" as *;
 
+.nav {
+	position: relative;
+	background-color: $dark-main-1;
+	&__burgerBtn {
+		position: absolute;
+		top: 50%;
+		left: 2rem;
+		padding: 1rem;
+		transform: translateY(-50%);
+		background-color: $light-main-1;
+		border: 1px solid transparent;
+		border-radius: 5px;
+		&:focus {
+			outline: none;
+			border: 1px solid rgba($color: #fff, $alpha: 0.5);
+		}
+	}
+	&__burgerBox {
+		position: relative;
+		height: 3rem;
+		width: 4rem;
+	}
+	&__burgerBars,
+	&__burgerBars::before,
+	&__burgerBars::after {
+		position: absolute;
+		left: 0;
+		height: 3px;
+		width: 100%;
+		background-color: #fff;
+	}
+	&__burgerBars {
+		&::after {
+			content: "";
+			top: 13px;
+			left: 0;
+		}
+		&::before {
+			content: "";
+			top: 26px;
+		}
+	}
+	&__list-box {
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+		background-color: $main-color;
+	}
+
+	&__logo-box {
+		margin-inline: auto;
+	}
+	&__logo {
+		margin: 0.5rem;
+		height: 7rem;
+		transition: transform 0.3s;
+		&:hover {
+			transform: scale(1.1);
+		}
+	}
+}
