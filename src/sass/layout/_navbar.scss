@@ -12,10 +12,6 @@
 		background-color: $light-main-1;
 		border: 1px solid transparent;
 		border-radius: 5px;
-		&:focus {
-			outline: none;
-			border: 1px solid rgba($color: #fff, $alpha: 0.5);
-		}
 	}
 	&__burgerBox {
 		position: relative;
@@ -29,24 +25,55 @@
 		left: 0;
 		height: 3px;
 		width: 100%;
-		background-color: #fff;
+		background-color: $light-gray-e;
 	}
 	&__burgerBars {
 		&::after {
 			content: "";
 			top: 13px;
-			left: 0;
 		}
 		&::before {
 			content: "";
 			top: 26px;
 		}
 	}
+	&__close {
+		position: absolute;
+		top: 2rem;
+		left: 2rem;
+		font-size: $font-size-36;
+		padding-inline: 1.5rem;
+		border-radius: 5px;
+		color: $light-gray-e;
+		background-color: $light-main-1;
+	}
+	&__close:focus,
+	&__burgerBtn:focus {
+		outline: none;
+		border: 1px solid rgba($color: $white-color, $alpha: 0.5);
+	}
 	&__list-box {
+		position: relative;
 		position: fixed;
 		width: 100%;
 		height: 100vh;
-		background-color: $main-color;
+		background-image: $main-green-gradient;
+		color: $light-gray-e;
+		transform: translateX(-100%);
+		transition: transform 0.3s;
+	}
+	&__list {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		height: 100%;
+	}
+	&__link {
+		display: block;
+		font-size: $font-size-36;
+		color: $light-gray-e;
+		padding: 1rem;
 	}
 
 	&__logo-box {
@@ -60,4 +87,7 @@
 			transform: scale(1.1);
 		}
 	}
+}
+.hide {
+	transform: translateX(0);
 }
