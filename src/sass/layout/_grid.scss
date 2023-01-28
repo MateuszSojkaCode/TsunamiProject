@@ -23,4 +23,26 @@
         grid-column: 1/3;
         grid-row: 4/5;
     }
+    @media(min-width: 768px){
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows:repeat(3, auto);
+        &--quicklinks{
+            grid-column: 3/4;
+        }
+        &--support{
+            grid-column: 4/5;
+        }
+        &--quicklinks, &--support{
+            grid-row: 1/2;
+        }
+        &--social, &--copyright{
+            grid-column: 1/-1;
+        }
+        &--social{
+            grid-row: 2/3;
+        }
+        &--copyright{
+            grid-row: 3/4
+        }
+    }
 }
