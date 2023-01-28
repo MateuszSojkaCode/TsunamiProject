@@ -9,6 +9,7 @@
 		position: relative;
 		display: flex;
 		width: 100%;
+		z-index: 100;
 	}
 	&__burgerBtn {
 		position: absolute;
@@ -148,6 +149,8 @@
 		}
 		&__company-name{
 			font-size: $font-size-32;
+			font-weight: 700;
+			font-style: italic;
 		}
 		&__desktop-link{
 			margin-inline: 1.5rem;

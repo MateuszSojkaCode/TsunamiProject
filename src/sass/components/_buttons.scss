@@ -1,1 +1,32 @@
+@use "../abstracts/" as *;
 
+.button {
+	&__cta {
+		&,
+		&:link,
+		&:visited {
+			padding: 1rem 4rem;
+			color: $light-gray-e;
+			background-color: $main-cta;
+			font-size: $font-size-16;
+			text-transform: uppercase;
+			font-weight: bold;
+			border-radius: 5rem;
+            transition: transform .3s, background-color .3s, box-shadow .3s;
+		}
+        &:hover{
+            transform: translateY(-5px) scale(1.03);
+            background-color: $light-cta-1;
+            box-shadow: 0 0 2rem rgba($dark-cta-2, .7);
+        }
+        &:active, &:focus{
+            transform: translateY(-3px);
+            box-shadow: 0 .2rem .5rem rgba($black-color, .7);
+        }
+        @media(min-width: 772px){
+            margin-top: 2rem;
+            padding: 1.5rem 6rem;
+            font-size: $font-size-20;
+        }
+	}
+}
