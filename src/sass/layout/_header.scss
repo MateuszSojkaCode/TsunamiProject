@@ -16,6 +16,8 @@
 	}
 	&__text{
 		margin-bottom: 2rem;
+		padding-inline: 2rem;
+		text-align: center;
 		font-size: $font-size-14;
 		color: $light-gray-d;
 		text-shadow: 0 1rem .5rem rgba($color: $black-color, $alpha: 1.0);
@@ -29,4 +31,16 @@
 	height: 100%;
 	background-color: rgba($color: $black-color, $alpha: .2);
 	z-index: -1;
+}
+@media(min-width: 772px){
+	.header{
+		justify-content: flex-start;
+		height: 80vh;
+		&__heading{
+			margin-top: 20vh;
+		}
+		&__text{
+			font-size: $font-size-20;
+		}
+	}
 }
