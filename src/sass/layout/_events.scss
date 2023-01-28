@@ -1,0 +1,33 @@
+@use '../abstracts/' as *;
+
+.events{
+    background-color: $light-main-2;
+    padding: 3rem;
+    &__heading{
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    &__box-one{
+        margin-bottom: 5rem;
+    }
+    &__text{
+        font-size: $font-size-14;
+        margin: 1rem 0;
+    }
+    &__img{
+        width: 100%;
+        max-height: 30rem;
+        object-fit: cover;
+    }
+    @media(min-width: 768px){
+        .events{
+            &__box{
+                display: flex;
+                justify-content: space-between;
+            }
+            &__box-one, &__box-two{
+                width: 45%;
+            }
+        }
+    }
+}
