@@ -20,7 +20,7 @@
         text-shadow: 0 .5rem 1rem $black-color;
     }
     &__text{
-        margin-bottom: .5rem;
+        margin-bottom: 1rem;
     }
     &__quicklinks, &__support{
         margin: 1rem 0;
@@ -45,7 +45,7 @@
     @media(min-width: 768px){
         padding: 3rem;
         &__link{
-            padding: .2rem;
+            padding: .5rem;
         }
         &__social{
             margin-top: 2rem;
