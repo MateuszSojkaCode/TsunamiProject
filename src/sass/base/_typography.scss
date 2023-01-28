@@ -18,6 +18,17 @@
     }
 }   
 
+// heading secondary
+
+.heading-secondary{
+    font-size: $font-size-24;
+    font-weight: bold;
+    color: $dark-gray-1;
+    @media(min-width: 992px){
+        font-size: $font-size-32;
+    }
+}
+
 // heading h3 
 
 .heading-h3{
