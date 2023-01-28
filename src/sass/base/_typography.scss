@@ -1,1 +1,14 @@
 
+@use '../abstracts/' as *;
+
+// heading primary
+
+.heading{
+    &__primary{
+        font-size: $font-size-48;
+        color: $main-cta;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-shadow: 0 1rem 1rem rgba($color: $black-color, $alpha: 1.0);
+    }
+}
