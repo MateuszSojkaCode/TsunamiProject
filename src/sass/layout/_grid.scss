@@ -10,6 +10,23 @@
     }
 }
 
+// FAQ grid
+
+.faq__grid{
+  display: grid;
+  @media(min-width: 576px){
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);    
+    gap: 1rem;
+  }
+  @media(min-width: 992px){
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);    
+    gap: 2rem;
+  }
+
+}
+
 // footer grid
 
 .footer__grid{
