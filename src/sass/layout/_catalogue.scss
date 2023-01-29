@@ -1,26 +1,37 @@
 @use '../abstracts/' as *;
 
 .catalogue{
-    background-color: $main-color;
-    padding-inline: 2rem;
+    background-color: $light-main-2;
     &__heading{
         text-align: center;
         margin-bottom: 2rem;
-        color: $main-cta;
+        color: $light-cta-2;
         text-transform: uppercase;
     }
+    &__cards{
+        padding-bottom: 3rem;
+        padding-inline: 2rem;
+        margin-bottom: 3rem;
+        border-bottom: 1px solid $black-color;
+    }
     &__card{
-        padding: 2rem;
+        padding: 1rem;
         margin: 1rem 0;
         width: 100%;
         max-width: 30rem;
         text-align: center;
         background-color: $body-color;
         border-radius: 10px;
+        transition: transform .3s, box-shadow .3s;
+        &:hover{
+            transform: translateY(-5px) scale(1.05);
+            box-shadow: 0 1rem 5rem rgba($black-color, .6);
+            cursor: pointer;
+        }
     }
     &__img{
         width: 100%;
-        margin-bottom: 3rem;
+        margin-bottom: 1rem;
         border-radius: 10px;
         border-bottom: 1px solid $light-gray-a;
     }
@@ -31,5 +42,48 @@
         padding: .3rem 0;
         font-size: $font-size-12;
         text-transform: uppercase;
+    }
+
+// category 
+
+    &__category{
+        background-color: $light-main-2;
+    }
+    &__category-img{
+        width: 100%;
+        height: 25rem;
+        object-fit: cover;
+        cursor: pointer;
+    }
+    &__info{
+        padding: 2rem;
+        color: $dark-gray-1;
+        text-align: center;
+    }
+    &__category-heading{
+        cursor: pointer;
+        margin-bottom: .5rem;
+    }
+    &__text{
+        font-size: $font-size-12;
+    }
+   
+    @media(min-width: 576px){
+        &__card{
+            padding: 2rem;
+        }
+        &__img{
+            margin-bottom: 2rem;
+        }
+    }
+    @media (min-width:768px) {
+        &__category-img{
+            height: 30rem;
+        }
+    }
+    @media (min-width:992px) {
+        &__category-img{
+            height: 35rem;
+        }
     }
 }
