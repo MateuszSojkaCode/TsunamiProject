@@ -40,7 +40,7 @@
         padding: .5rem;
         &:hover{
             color: $light-gray-b;
-            text-shadow: 0 0 1rem rgba($white-color, .8);
+            text-shadow: 0 0 1rem rgba($white-color, 1);
         }
     }
     @media(min-width: 768px){

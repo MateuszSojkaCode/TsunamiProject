@@ -16,7 +16,7 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, auto);
-    gap: 1rem;
+    gap: 2rem;
     &--center{
         justify-self: center;
     }
@@ -43,6 +43,7 @@
     @media(min-width: 768px){
         grid-template-columns: repeat(6, 1fr);
         grid-template-rows: repeat(2, 1fr);
+        gap: 3rem;
         &--productOne{
             grid-column: 1/3;
             grid-row: 1/2;
@@ -96,6 +97,16 @@
         @media(min-width:992px){
             grid-template-columns: repeat(3, 1fr);
         }
+    }
+}
+
+// reviews grid
+
+.reviews__grid{
+    display: grid;
+    @media (min-width:768px) {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
     }
 }
 
