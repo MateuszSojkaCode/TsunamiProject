@@ -30,5 +30,5 @@ $dark-gray-5: #555;
 $dark-gray-6: #666;
 
 $main-green-gradient: linear-gradient(180deg, $main-color, $dark-main-3);
-// $transparent-green-gradient: linear-gradient(90deg, $dark-main-1, transparent);
+$main-green-gradient-45: linear-gradient(90deg, $light-main-1, $dark-main-1);
 $main-orange-gradient: linear-gradient(180deg, $main-cta, $dark-cta-3);
