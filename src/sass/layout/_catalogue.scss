@@ -2,7 +2,6 @@
 
 .catalogue{
     background-color: $light-main-1;
-    background-image: $main-green-gradient-45;
     &__heading{
         text-align: center;
         margin-bottom: 2rem;
@@ -10,6 +9,7 @@
         text-transform: uppercase;
     }
     &__cards{
+        // background-color: $main-color;
         padding-bottom: 3rem;
         padding-inline: 2rem;
         margin-bottom: 3rem;

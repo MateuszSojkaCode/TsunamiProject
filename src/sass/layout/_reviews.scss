@@ -1,0 +1,48 @@
+@use '../abstracts/' as *;
+
+.reviews{
+    background-color: $light-main-1;
+    background-image: $light-green-gradient;
+    padding: 3rem;
+    &__heading{
+        text-align: center;
+        padding-inline: 2rem;
+        margin-bottom: 1rem;
+    }
+    &__card{
+        position: relative;
+        margin: 4rem auto;
+        padding: 2rem;
+        max-width: 30rem;
+        background-image: $light-orange-gradient;
+        border-radius: 5px;
+    }
+    &__img{
+        display: block;
+        width: 10rem;
+        height: 10rem;
+        margin-bottom: 2rem;
+        margin-inline: auto;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 5px solid $light-main-2;
+    }
+    &__icon{
+        position: absolute;
+        top: 10rem;
+        font-size: $font-size-60;        
+        color: $dark-gray-1;
+        opacity: .2;
+    }
+    &__text{
+        padding: .5rem;
+        color: $dark-gray-3;
+        font-size: $font-size-14;
+        line-height: 1.4;
+    }
+    &__name{
+        text-align: right;
+        font-size: $font-size-20;
+        color: $dark-gray-1;
+    }
+}
