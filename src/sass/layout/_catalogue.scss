@@ -1,19 +1,26 @@
 @use '../abstracts/' as *;
 
+
+.main{
+    background-color: $body-color;
+}
 .catalogue{
-    background-color: $light-main-1;
+    background-color: $body-color;
     &__heading{
         text-align: center;
-        margin-bottom: 2rem;
-        color: $dark-main-3;
+        margin: 2rem;
+        padding-top: 4rem;
+        color: $body-color;
         text-transform: uppercase;
     }
-    &__cards{
-        // background-color: $main-color;
+    &__bestSelling{
+        background-color: $main-color;
         padding-bottom: 3rem;
         padding-inline: 2rem;
-        margin-bottom: 3rem;
+        // margin-bottom: 3rem;
         border-bottom: 1px solid $black-color;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
     }
     &__card{
         padding: 1rem;
@@ -21,7 +28,7 @@
         width: 100%;
         max-width: 30rem;
         text-align: center;
-        background-color: #fff;
+        background-color: $body-color;
         border-radius: 10px;
         transition: transform .3s, box-shadow .3s;
         &:hover{
@@ -52,6 +59,7 @@
 // category 
 
     &__category{
+        background-color: $main-color;
         overflow: hidden;
     }
     &__category-img{
