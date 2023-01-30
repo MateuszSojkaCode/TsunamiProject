@@ -1,22 +1,16 @@
-@use '../abstracts/' as *;
+@use "../abstracts/" as *;
 
-.main{
-    background-color: $secondary-color;
+.main {
+	background-color: $secondary-color;
 }
 
-.container{
-    width: 100%;
-    margin-inline: auto;
-    &__1000{
-        max-width: 1000px;
-    }
-    &__1200{
-        max-width: 1200px;
-    }
-    &__1300{
-        max-width: 1300px;
-    }
-    &__1600{
-        max-width: 1600px;
-    }
+.container {
+	width: 100%;
+	margin-inline: auto;
+	&__1200 {
+		max-width: 1200px;
+	}
+	&__1600 {
+		max-width: 1600px;
+	}
 }

@@ -5,7 +5,7 @@ $main-dark-3: #021705;
 $main-light-1: #36613d;
 $main-light-2: #68886e;
 
-$secondary-color: #EAE1C6;
+$secondary-color: #eae1c6;
 $secondary-dark-1: #bbb49e;
 $secondary-dark-2: #8c8777;
 $secondary-light-1: #ece4cc;
@@ -34,6 +34,8 @@ $dark-gray-5: #555;
 $dark-gray-6: #666;
 
 $main-green-gradient: linear-gradient(180deg, $main-color, $main-dark-3);
-$light-green-gradient: linear-gradient(180deg, $main-light-1, $main-color);
+$main-green-gradient-0: linear-gradient(0deg, $main-color, $main-dark-3);
+$light-green-gradient: linear-gradient(0deg, $main-light-1, $main-color);
+$light-green-gradient-0: linear-gradient(180deg, $main-light-1, $main-color);
 $main-orange-gradient: linear-gradient(180deg, $cta-main, $cta-dark-3);
 $light-orange-gradient: linear-gradient(180deg, $cta-light-2, $cta-main);
