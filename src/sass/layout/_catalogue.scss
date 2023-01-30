@@ -1,16 +1,13 @@
 @use '../abstracts/' as *;
 
 
-.main{
-    background-color: $body-color;
-}
 .catalogue{
-    background-color: $body-color;
+    background-color: $secondary-color;
     &__heading{
         text-align: center;
         margin: 2rem;
         padding-top: 4rem;
-        color: $body-color;
+        color: $secondary-color;
         text-transform: uppercase;
     }
     &__bestSelling{
@@ -28,7 +25,7 @@
         width: 100%;
         max-width: 30rem;
         text-align: center;
-        background-color: $body-color;
+        background-color: $secondary-color;
         border-radius: 10px;
         transition: transform .3s, box-shadow .3s;
         &:hover{
@@ -47,7 +44,7 @@
         font-size: $font-size-16;
         transition: color .2s;
         &:hover{
-            color: $main-cta;
+            color: $cta-main;
         }
     }
     &__stock{
@@ -83,7 +80,7 @@
         margin-bottom: .5rem;
         transition: color .2s;
         &:hover{
-            color: $main-cta;
+            color: $cta-main;
         }
     }
     &__text{
