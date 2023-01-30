@@ -17,7 +17,7 @@
 		left: 2rem;
 		padding: 1rem;
 		transform: translateY(-50%);
-		background-color: $light-main-1;
+		background-color: $main-light-1;
 		border: 1px solid transparent;
 		border-radius: 5px;
 	}
@@ -53,7 +53,7 @@
 		padding-inline: 1.5rem;
 		border-radius: 5px;
 		color: $light-gray-e;
-		background-color: $light-main-1;
+		background-color: $main-light-1;
 	}
 	&__close:focus,
 	&__burgerBtn:focus {
@@ -134,7 +134,7 @@
 			align-items: center;
 		}
 		&__desktop-item{
-			color: $light-main-2;
+			color: $main-light-2;
 		}
 		&__desktop-link{
 			margin-inline: 1rem;

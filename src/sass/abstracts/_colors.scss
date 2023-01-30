@@ -1,18 +1,22 @@
 $main-color: #04390d;
-$dark-main-1: #032e0a;
-$dark-main-2: #022208;
-$dark-main-3: #021705;
-$light-main-1: #36613d;
-$light-main-2: #68886e;
+$main-dark-1: #032e0a;
+$main-dark-2: #022208;
+$main-dark-3: #021705;
+$main-light-1: #36613d;
+$main-light-2: #68886e;
 
-$main-cta: #f38a0c;
-$dark-cta-1: #c26e0a;
-$dark-cta-2: #925307;
-$dark-cta-3: #613705;
-$light-cta-1: #f49624;
-$light-cta-2: #f6ab50;
+$secondary-color: #EAE1C6;
+$secondary-dark-1: #bbb49e;
+$secondary-dark-2: #8c8777;
+$secondary-light-1: #ece4cc;
+$secondary-light-2: #f0ead7;
 
-$body-color: #EAE1C6;
+$cta-main: #f38a0c;
+$cta-dark-1: #c26e0a;
+$cta-dark-2: #925307;
+$cta-dark-3: #613705;
+$cta-light-1: #f49624;
+$cta-light-2: #f6ab50;
 
 $white-color: #fff;
 $light-gray-e: #eee;
@@ -29,7 +33,7 @@ $dark-gray-4: #444;
 $dark-gray-5: #555;
 $dark-gray-6: #666;
 
-$main-green-gradient: linear-gradient(180deg, $main-color, $dark-main-3);
-$light-green-gradient: linear-gradient(180deg, $light-main-1, $main-color);
-$main-orange-gradient: linear-gradient(180deg, $main-cta, $dark-cta-3);
-$light-orange-gradient: linear-gradient(180deg, $light-cta-2, $main-cta);
+$main-green-gradient: linear-gradient(180deg, $main-color, $main-dark-3);
+$light-green-gradient: linear-gradient(180deg, $main-light-1, $main-color);
+$main-orange-gradient: linear-gradient(180deg, $cta-main, $cta-dark-3);
+$light-orange-gradient: linear-gradient(180deg, $cta-light-2, $cta-main);

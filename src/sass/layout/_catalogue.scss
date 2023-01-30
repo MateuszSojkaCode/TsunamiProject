@@ -1,34 +1,37 @@
 @use '../abstracts/' as *;
 
 
-.main{
-    background-color: $body-color;
-}
 .catalogue{
-    background-color: $body-color;
-    &__heading{
-        text-align: center;
-        margin: 2rem;
-        padding-top: 4rem;
-        color: $body-color;
-        text-transform: uppercase;
-    }
+    padding-top: 6rem;
+    padding-inline: 1rem;
     &__bestSelling{
-        background-color: $main-color;
         padding-bottom: 3rem;
         padding-inline: 2rem;
-        // margin-bottom: 3rem;
-        border-bottom: 1px solid $black-color;
+        background-color: $main-color;
+        background-image: $light-green-gradient;
         border-top-left-radius: 50px;
         border-top-right-radius: 50px;
     }
+    &__heading{
+        margin: 2rem;
+
+        text-align: center;
+        padding-top: 4rem;
+        color: $secondary-color;
+        text-transform: uppercase;
+        border-bottom: 1px solid $light-gray-d;
+    }
     &__card{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: relative;
         padding: 1rem;
         margin: 1rem 0;
         width: 100%;
         max-width: 30rem;
         text-align: center;
-        background-color: $body-color;
+        background-color: $secondary-color;
         border-radius: 10px;
         transition: transform .3s, box-shadow .3s;
         &:hover{
@@ -47,7 +50,7 @@
         font-size: $font-size-16;
         transition: color .2s;
         &:hover{
-            color: $main-cta;
+            color: $cta-main;
         }
     }
     &__stock{
@@ -55,11 +58,19 @@
         font-size: $font-size-12;
         text-transform: uppercase;
     }
+    &__button{
+        padding-inline: 2rem;
+        margin-inline: auto;
+        font-size: $font-size-16;
+        width: 80%;
+    }
+    
 
 // category 
 
     &__category{
-        background-color: $main-color;
+       
+        background-image: $main-green-gradient;
         overflow: hidden;
     }
     &__category-img{
@@ -76,26 +87,24 @@
         padding: 1rem;
         height: 100%;
         text-align: center;
-        color: $dark-gray-1;
+        color: $secondary-color;
     }
     &__category-heading{
         cursor: pointer;
         margin-bottom: .5rem;
         transition: color .2s;
         &:hover{
-            color: $main-cta;
+            color: $cta-main;
         }
     }
     &__text{
         font-size: $font-size-12;
+        color: $secondary-dark-2;
     }
    
     @media(min-width: 576px){
         &__card{
             padding: 1rem;
-        }
-        &__img{
-            margin-bottom: 2rem;
         }
         &__product{
             margin-top: 1rem;

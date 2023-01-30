@@ -1,7 +1,7 @@
 @use '../abstracts/' as *;
 
 .events{
-    background-color: $body-color;
+    background-color: $secondary-color;
     padding: 3rem;
     &__heading{
         text-align: center;

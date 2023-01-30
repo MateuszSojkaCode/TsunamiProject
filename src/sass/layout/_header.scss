@@ -7,7 +7,7 @@
 	justify-content: flex-start;
 	align-items: center;
 	height: 60vh;
-	background-image: url(./../../src/img/HeaderMedium.jpg);
+	background-image: url(./../../../src/img/HeaderMedium.jpg);
 	background-position: center;
 	background-size: cover;
 	z-index: 10;
@@ -20,7 +20,7 @@
 		text-align: center;
 		font-size: $font-size-14;
 		color: $light-gray-d;
-		text-shadow: 0 1rem 0.5rem $black-color;
+		text-shadow: 0 .5rem 0.5rem $black-color;
 	}
 }
 .bg-shadow {

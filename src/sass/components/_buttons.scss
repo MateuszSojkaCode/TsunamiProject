@@ -6,8 +6,9 @@
 		&:link,
 		&:visited {
 			padding: 1rem 4rem;
+            margin-bottom: 1rem;
 			color: $light-gray-e;
-			background-color: $main-cta;
+			background-color: $cta-main;
 			font-size: $font-size-16;
 			text-transform: uppercase;
 			font-weight: bold;
@@ -16,15 +17,14 @@
 		}
         &:hover{
             transform: translateY(-5px) scale(1.03);
-            background-color: $light-cta-1;
-            box-shadow: 0 0 2rem rgba($dark-cta-2, .7);
+            background-color: $cta-light-1;
+            box-shadow: 0 0 2rem rgba($cta-dark-2, .7);
         }
         &:active{
             transform: translateY(-3px);
             box-shadow: 0 .2rem .5rem rgba($black-color, .7);
         }
         @media(min-width: 772px){
-            margin-top: 2rem;
             padding: 1.5rem 6rem;
             font-size: $font-size-20;
         }

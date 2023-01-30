@@ -3,18 +3,20 @@
 .faq{
     padding: 3rem;
     background-color: $main-color;
-    border-top: 2px solid $dark-main-3;
+    border-top: 2px solid $main-dark-3;
     &__heading{
         margin-bottom: 2rem;
         text-align: center;
+        color: $secondary-color;
+        text-shadow: 0 .5rem .5rem $black-color;
     }
     &__box{
         position: relative;
         margin: 1rem auto;
         padding: 2rem;
         width: 100%;
-        background-color: $light-main-1;
-        border: 1px solid $dark-main-3;
+        background-color: $main-light-1;
+        border: 1px solid $main-dark-3;
         border-radius: 5px;
 
     }
@@ -38,15 +40,20 @@
         height: 3rem;
         width: 3rem;
         font-size: $font-size-20;
-        color: $light-main-2;
-        background-color: $dark-main-2;
+        color: $main-light-2;
+        background-color: $main-dark-2;
         border-radius: 50%;
+        transition: color .2s, background-color .2s;
+        &:hover{
+            color: $main-dark-2;
+            background-color: $cta-main;
+        }
     }
     &__toggle{
         position: absolute;
         top: 1.5rem;
         right: 1.5rem;
-        background-color: $light-main-1;
+        background-color: $main-light-1;
     }
     &__times{
         display: none;
