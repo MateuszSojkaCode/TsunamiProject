@@ -37,5 +37,26 @@ After small changes to the prompt and rerolls of design that I liked, I found so
 <br>
 <br>
 
+Now it was time to create logo for company and for that I also used MidJourney.
+Here are resoults for the logo:
+<div width="100%">
+  <img src="https://github.com/MateuszSojkaCode/TsunamiProject/blob/master/files/MatthewJay_logo_design_for_company_named_tsunami_selling_canoes_9e678b1b-b9ac-4642-bbaa-71e34f02ca75.png" width="33%">
+  <img src="https://github.com/MateuszSojkaCode/TsunamiProject/blob/master/files/MatthewJay_logo_design_for_company_named_tsunami_selling_canoes_d30e481c-cf42-46c6-8027-c8dd52c9d9cf.png" width="33%">
+  <img src="https://github.com/MateuszSojkaCode/TsunamiProject/blob/master/files/MatthewJay_logo_design_for_company_named_tsunami_selling_canoes_e8b5f19c-82c3-4d8e-ae86-a6d58533ac55.png" width="33%">
+</div>
 
-                               
+<br>
+
+When I had design and logo, now I only had to create content for my website and for that I used another AI tool ChatGPT. My whole "conversation" with ChatGPT you can fin in file Tsunami.docx
+
+And now when I had everything I need I started to write the code. After couple days of coding this is the end result.
+     
+<div align="center">                                                                                                                                                
+  <a href="https://mateuszsojkacode.github.io/TsunamiProject/" align="center" width="100%">Tsunami</a>
+</div>          
+                                                                                          
+<br>
+                                                                                          
+I must say that I happy with the result, Finaly I have some content to use on the website, not Lorem Ipsum all the time. But yes I am aware that there I some things that could be done different. Some parts of website should work as they should do. Yes FAQ I am talking to you.
+                                                                           
+Maybe in couple days I will back to this project I fix all the issues I have with it.                                                     
