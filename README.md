@@ -59,4 +59,4 @@ And now when I had everything I need I started to write the code. After couple d
                                                                                           
 I must say that I happy with the result, Finaly I have some content to use on the website, not Lorem Ipsum all the time. But yes I am aware that there I some things that could be done different. Some parts of website should work as they should do. Yes FAQ I am talking to you.
                                                                            
-Maybe in couple days I will back to this project I fix all the issues I have with it.                                                     
+Maybe in couple days I will back to this project I fix all the issues I have with it. But now I am going to leave it and jump to anothe project that is waiting for me.                                                    
