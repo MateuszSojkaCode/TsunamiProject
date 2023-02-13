@@ -54,6 +54,9 @@ And now when I had everything I need I started to write the code. After couple d
 <div align="center">                                                                                                                                                
   <a href="https://mateuszsojkacode.github.io/TsunamiProject/" align="center" width="100%">Tsunami</a>
 </div>          
+<div align="center">
+  <img src="https://github.com/MateuszSojkaCode/TsunamiProject/blob/master/files/TS_thumbnail.jpg" width="50%">
+</div>
                                                                                           
 <br>
                                                                                           
