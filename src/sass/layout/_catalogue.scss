@@ -24,9 +24,9 @@
 		justify-content: space-between;
 		position: relative;
 		padding: 1rem;
-		margin: 1rem 0;
-		width: 100%;
-		max-width: 30rem;
+		height: 40rem;
+		width: 20rem;
+		max-width: 25rem;
 		text-align: center;
 		background-color: $main-light-2;
 		border-radius: 10px;
@@ -39,6 +39,7 @@
 	}
 	&__img {
 		width: 100%;
+		align-self: center;
 		margin-bottom: 1rem;
 		border-radius: 10px;
 		border-bottom: 1px solid $light-gray-a;
@@ -57,7 +58,7 @@
 		text-transform: uppercase;
 	}
 	&__button {
-		padding-inline: 1.5rem;
+		padding:  1rem 1.5rem;
 		margin-inline: auto;
 		width: 80%;
 	}
@@ -112,6 +113,9 @@
 		}
 	}
 	@media (min-width: 768px) {
+		&__card{
+			height: 42rem;
+		}
 		&__heading {
 			margin: 3rem;
 		}

@@ -13,6 +13,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" />
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
     <script src="https://kit.fontawesome.com/8019d8951d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./dist/css/main.min.css" />
 </head>
@@ -114,42 +116,60 @@
             <div class="container container__1600">
                 <div class="catalogue__bestSelling">
                     <h2 class="catalogue__heading heading-secondary">Best Selling</h2>
-                    <div class="catalogue__grid">
-                        <div class="catalogue__card catalogue__grid--productOne catalogue__grid--center">
-                            <img src="./src/img/best_selling/product_one.jpg" alt="Palm Solo Vest Buoyancy Aid" class="catalogue__img">
-                            <h3 class="catalogue__product">Palm Solo Vest Buoyancy Aid</h3>
-                            <p class="catalogue__stock">in stock</p>
-                            <h3 class="catalogue__price">£59.50</h3>
-                            <button class="catalogue__button button button__buynow">buy now! <i class="fas fa-shopping-cart"></i></button>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="catalogue__card swiper-slide">
+                                <img src="./src/img/best_selling/product_one.jpg" alt="Palm Solo Vest Buoyancy Aid" class="catalogue__img">
+                                <h3 class="catalogue__product">Palm Solo Vest Buoyancy Aid</h3>
+                                <p class="catalogue__stock">in stock</p>
+                                <h3 class="catalogue__price">£59.50</h3>
+                                <button class="catalogue__button button button__buynow">buy now! <i class="fas fa-shopping-cart"></i></button>
+                            </div>
+                            <div class="catalogue__card swiper-slide">
+                                <img src="./src/img/best_selling/product_two.jpg" alt="Dryrobe Orange Long Sleeved Changing Robe" class="catalogue__img">
+                                <h3 class="catalogue__product">Dryrobe Orange Long Sleeved Changing Robe</h3>
+                                <p class="catalogue__stock">in stock</p>
+                                <h3 class="catalogue__price">£160.00</h3>
+                                <button class="catalogue__button button button__buynow">buy now! <i class="fas fa-shopping-cart"></i></button>
+                            </div>
+                            <div class="catalogue__card swiper-slide">
+                                <img src="./src/img/best_selling/product_three.jpg" alt="Wave Sport Scooter X" class="catalogue__img">
+                                <h3 class="catalogue__product">Wave Sport Scooter X</h3>
+                                <p class="catalogue__stock">in stock</p>
+                                <h3 class="catalogue__price">£584.24</h3>
+                                <button class="catalogue__button button button__buynow">buy now! <i class="fas fa-shopping-cart"></i></button>
+                            </div>
+                            <div class="catalogue__card swiper-slide">
+                                <img src="./src/img/best_selling/product_four.jpg" alt="Palm Arc Throwline" class="catalogue__img">
+                                <h3 class="catalogue__product">Palm Arc Throwline</h3>
+                                <p class="catalogue__stock">in stock</p>
+                                <h3 class="catalogue__price">£43.99</h3>
+                                <button class="catalogue__button button button__buynow">buy now! <i class="fas fa-shopping-cart"></i></button>
+                            </div>
+                            <div class="catalogue__card swiper-slide">
+                                <img src="./src/img/best_selling/product_five.jpg" alt="Wave Sport Scooter XT" class="catalogue__img">
+                                <h3 class="catalogue__product">Wave Sport Scooter XT</h3>
+                                <p class="catalogue__stock">in stock</p>
+                                <h3 class="catalogue__price">£799.00</h3>
+                                <button class="catalogue__button button button__buynow">buy now! <i class="fas fa-shopping-cart"></i></button>
+                            </div>
+                            <div class="catalogue__card swiper-slide">
+                                <img src="./src/img/best_selling/product_six.jpg" alt="NRS Ninja Buoyacy Aid 2022" class="catalogue__img">
+                                <h3 class="catalogue__product">NRS Ninja Buoyacy Aid 2022</h3>
+                                <p class="catalogue__stock">in stock</p>
+                                <h3 class="catalogue__price">£109.94</h3>
+                                <button class="catalogue__button button button__buynow">buy now! <i class="fas fa-shopping-cart"></i></button>
+                            </div>
+                            <div class="catalogue__card swiper-slide">
+                                <img src="./src/img/best_selling/product_seven.jpg" alt="Venture Islay 12 Touring Kayak" class="catalogue__img">
+                                <h3 class="catalogue__product">Venture Islay 12 Touring Kayak</h3>
+                                <p class="catalogue__stock">in stock</p>
+                                <h3 class="catalogue__price">£949.00.00</h3>
+                                <button class="catalogue__button button button__buynow">buy now! <i class="fas fa-shopping-cart"></i></button>
+                            </div>
                         </div>
-                        <div class="catalogue__card catalogue__grid--productTwo catalogue__grid--center">
-                            <img src="./src/img/best_selling/product_two.jpg" alt="Dryrobe Orange Long Sleeved Changing Robe" class="catalogue__img">
-                            <h3 class="catalogue__product">Dryrobe Orange Long Sleeved Changing Robe</h3>
-                            <p class="catalogue__stock">in stock</p>
-                            <h3 class="catalogue__price">£160.00</h3>
-                            <button class="catalogue__button button button__buynow">buy now! <i class="fas fa-shopping-cart"></i></button>
-                        </div>
-                        <div class="catalogue__card catalogue__grid--productThree catalogue__grid--center">
-                            <img src="./src/img/best_selling/product_three.jpg" alt="Wave Sport Scooter X" class="catalogue__img">
-                            <h3 class="catalogue__product">Wave Sport Scooter X</h3>
-                            <p class="catalogue__stock">in stock</p>
-                            <h3 class="catalogue__price">£584.24</h3>
-                            <button class="catalogue__button button button__buynow">buy now! <i class="fas fa-shopping-cart"></i></button>
-                        </div>
-                        <div class="catalogue__card catalogue__grid--productFour catalogue__grid--center">
-                            <img src="./src/img/best_selling/product_four.jpg" alt="Palm Arc Throwline" class="catalogue__img">
-                            <h3 class="catalogue__product">Palm Arc Throwline</h3>
-                            <p class="catalogue__stock">in stock</p>
-                            <h3 class="catalogue__price">£43.99</h3>
-                            <button class="catalogue__button button button__buynow">buy now! <i class="fas fa-shopping-cart"></i></button>
-                        </div>
-                        <div class="catalogue__card catalogue__grid--productFive catalogue__grid--center">
-                            <img src="./src/img/best_selling/product_five.jpg" alt="Wave Sport Scooter XT" class="catalogue__img">
-                            <h3 class="catalogue__product">Wave Sport Scooter XT</h3>
-                            <p class="catalogue__stock">in stock</p>
-                            <h3 class="catalogue__price">£799.00</h3>
-                            <button class="catalogue__button button button__buynow">buy now! <i class="fas fa-shopping-cart"></i></button>
-                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
                     </div>
                 </div>
             </div>
@@ -383,6 +403,8 @@
         </div>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./dist/js/slider.min.js"></script>
     <script src="./dist/js/main.min.js"></script>
 </body>
 
